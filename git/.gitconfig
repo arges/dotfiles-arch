@@ -1,0 +1,24 @@
+[user]
+	name = Chris J Arges
+	email = arges@users.noreply.github.com
+
+[core]
+	editor = nvim
+
+[init]
+	defaultBranch = main
+
+[push]
+	default = current
+
+[pull]
+	rebase = false
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default
+
+[include]
+	path = ~/.gitconfig.local

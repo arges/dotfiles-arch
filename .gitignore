@@ -1,3 +1,6 @@
+# Machine-local git overrides (credentials, work email, signing key, etc.)
+.gitconfig.local
+
 # Secrets — never commit these
 **/secrets
 **/*.key
