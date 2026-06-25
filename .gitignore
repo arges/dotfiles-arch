@@ -1,0 +1,31 @@
+# Secrets — never commit these
+**/secrets
+**/*.key
+**/*.pem
+**/*.p12
+**/*.pfx
+**/id_rsa
+**/id_ed25519
+**/.env
+**/credentials
+**/tokens
+
+# App-specific secret files
+nvim/.config/nvim/.netrc
+nvim/.config/nvim/lua/secrets.lua
+
+# Neovim plugin lockfile (machine-specific, regenerated automatically)
+# Uncomment to exclude:
+# nvim/.config/nvim/lazy-lock.json
+
+# Wallpaper paths (machine-specific, large binaries)
+hypr/.config/hypr/hyprpaper.conf
+
+# Editor artifacts
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Stow metadata
+.stow-local-ignore
