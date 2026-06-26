@@ -111,7 +111,7 @@ hl.bind(mainMod .. " + R",          hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P",          hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + T",          hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + F",          hl.dsp.window.fullscreen({ action = "toggle" }))
-hl.bind(mainMod .. " + L",          hl.dsp.exec_cmd("hyprlock"))
+hl.bind(mainMod .. " + SHIFT + L",      hl.dsp.exec_cmd("hyprlock"))
 
 -- Focus: arrow keys and vi keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left"  }))
